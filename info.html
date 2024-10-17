@@ -1,0 +1,1662 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title><i class="bx bx-cloud text-light"></i>shq Quilla +</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="Bootstrap/css/headers.css" />
+    <link rel="stylesheet" href="assets/css/blog.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="fontawesome-free-6.5.1-web/css/all.css" />
+
+    <link href="Bootstrap/css/navbar.css" rel="stylesheet" />
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <!-- =======================================================
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  </head>
+
+  <body
+    style="background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(assets/img/services-bg.jpg) fixed center center;, background-size:cover;"
+  >
+    <form
+      method="post"
+      enctype="text/plain"
+      class="needs-validation"
+      novalidate
+    >
+      <!-- Form fields here -->
+      <div class="row g-3">
+        <div class="col-sm-6">
+          <label for="firstName" class="form-label">First name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="firstName"
+            placeholder=""
+            value=""
+            required
+          />
+          <div class="invalid-feedback">Valid first name is required.</div>
+        </div>
+
+        <div class="col-sm-6">
+          <label for="lastName" class="form-label">Last name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="lastName"
+            placeholder=""
+            value=""
+            required
+          />
+          <div class="invalid-feedback">Valid last name is required.</div>
+        </div>
+
+        <div class="col-12">
+          <label for="username" class="form-label">Username</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text">@</span>
+            <input
+              type="text"
+              class="form-control"
+              id="username"
+              placeholder="Username"
+              required
+            />
+            <div class="invalid-feedback">Your username is required.</div>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <label for="email" class="form-label"
+            >Email <span class="text-muted">(Optional)</span></label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="you@example.com"
+          />
+          <div class="invalid-feedback">
+            Please enter a valid email address for shipping updates.
+          </div>
+        </div>
+
+        <div class="col-12">
+          <label for="address" class="form-label">Address</label>
+          <input
+            type="text"
+            class="form-control"
+            id="address"
+            placeholder="1234 Main St"
+            required
+          />
+          <div class="invalid-feedback">
+            Please enter your shipping address.
+          </div>
+        </div>
+
+        <div class="col-12">
+          <label for="address2" class="form-label"
+            >Address 2 <span class="text-muted">(Optional)</span></label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="address2"
+            placeholder="Apartment or suite"
+          />
+        </div>
+
+        <div class="col-md-5">
+          <label for="country" class="form-label">Country</label>
+          <select class="form-select" id="country" required>
+            <option value="">Choose...</option>
+            <option>Nigeria</option>
+          </select>
+          <div class="invalid-feedback">Please select a valid country.</div>
+        </div>
+
+        <div class="col-md-4">
+          <label for="state" class="form-label">State</label>
+          <select class="form-select" id="state" required>
+            <option value="">Choose...</option>
+            <option>Rivers State</option>
+          </select>
+          <div class="invalid-feedback">Please provide a valid state.</div>
+        </div>
+
+        <div class="col-md-3">
+          <label for="zip" class="form-label">Zip</label>
+          <input
+            type="text"
+            class="form-control"
+            id="zip"
+            placeholder=""
+            required
+          />
+          <div class="invalid-feedback">Zip code required.</div>
+        </div>
+      </div>
+
+      <hr class="my-4" />
+
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="same-address" />
+        <label class="form-check-label" for="same-address"
+          >Shipping address is the same as my billing address</label
+        >
+      </div>
+
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="save-info" />
+        <label class="form-check-label" for="save-info"
+          >Save this information for next time</label
+        >
+      </div>
+
+      <hr class="my-4" />
+
+      <h4 class="mb-3">Payment</h4>
+
+      <div class="my-3">
+        <h5 class="card-title">1 Year</h5>
+        <p class="card-text">₦50,000</p>
+        <div class="form-check">
+          <input
+            id="credit"
+            name="paymentMethod"
+            type="radio"
+            class="form-check-input"
+            checked
+            required
+          />
+          <label class="form-check-label" for="credit">Credit card</label>
+        </div>
+        <div class="form-check">
+          <input
+            id="debit"
+            name="paymentMethod"
+            type="radio"
+            class="form-check-input"
+            required
+          />
+          <label class="form-check-label" for="debit">Debit card</label>
+        </div>
+        <a
+          class="nav-link dropdown-toggle my-2"
+          id="dropdown10"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          >Bank Transfer</a
+        >
+        <ul
+          class="dropdown-menu bg-danger mt-md-3"
+          aria-labelledby="dropdown10"
+        >
+          <li><a class="dropdown-item text-light">Moniepoint: </a></li>
+          <li><a class="dropdown-item text-light"></a></li>
+        </ul>
+      </div>
+
+      <div class="row gy-3">
+        <div class="col-md-6">
+          <label for="cc-name" class="form-label">Name on card</label>
+          <input
+            type="text"
+            class="form-control"
+            id="cc-name"
+            placeholder=""
+            required
+          />
+          <small class="text-muted">Full name as displayed on card</small>
+          <div class="invalid-feedback">Name on card is required</div>
+        </div>
+
+        <div class="col-md-6">
+          <label for="cc-number" class="form-label">Credit card number</label>
+          <input
+            type="text"
+            class="form-control"
+            id="cc-number"
+            placeholder=""
+            required
+          />
+          <div class="invalid-feedback">Credit card number is required</div>
+        </div>
+
+        <div class="col-md-3">
+          <label for="cc-expiration" class="form-label">Expiration</label>
+          <input
+            type="text"
+            class="form-control"
+            id="cc-expiration"
+            placeholder=""
+            required
+          />
+          <div class="invalid-feedback">Expiration date required</div>
+        </div>
+
+        <div class="col-md-3">
+          <label for="cc-cvv" class="form-label">CVV</label>
+          <input
+            type="text"
+            class="form-control"
+            id="cc-cvv"
+            placeholder=""
+            required
+          />
+          <div class="invalid-feedback">Security code required</div>
+        </div>
+      </div>
+
+      <hr class="my-4" />
+
+      <button class="w-100 btn btn-danger btn-lg" type="submit">
+        Subscribe
+      </button>
+    </form>
+    ```
+
+    <div id="display-area"></div>
+
+    <script>
+      // const form = document.querySelector('form');
+      // form.addEventListener('submit', (e) => {
+      //   e.preventDefault();
+      //   const userData = {
+      //     firstName: document.getElementById('firstName').value,
+      //     lastName: document.getElementById('lastName').value,
+      //     username: document.getElementById('username').value,
+      //     email: document.getElementById('email').value,
+      //     address: document.getElementById('address').value,
+      //     country: document.getElementById('country').value,
+      //     state: document.getElementById('state').value,
+      //     zip: document.getElementById('zip').value,
+      //     paymentMethod: document.querySelector('input[name="paymentMethod"]:checked').value,
+      //     ccName: document.getElementById('cc-name').value,
+      //     ccNumber: document.getElementById('cc-number').value,
+      //     ccExpiration: document.getElementById('cc-expiration').value,
+      //     ccCVV: document.getElementById('cc-cvv').value,
+      //   };
+      // Save data to cookies
+      // document.cookie = `userData=${JSON.stringify(userData)}`;
+      // Save data to local storage
+      //localStorage.setItem('userData', JSON.stringify(userData));
+      // Display data in display area
+      // const displayArea = document.getElementById('display-area');
+      // displayArea.innerHTML = `
+      /*   <h2>User Data</h2>
+      <p>First Name: ${userData.firstName}</p>
+      <p>Last Name: ${userData.lastName}</p>
+      <p>Username: ${userData.username}</p>
+      <p>Email: ${userData.email}</p>
+      <p>Address: ${userData.address}</p>
+      <p>Country: ${userData.country}</p>
+      <p>State: ${userData.state}</p>
+      <p>Zip: ${userData.zip}</p>
+      <p>Payment Method: ${userData.paymentMethod}</p>
+      <p>Credit Card Name: ${userData.ccName}</p>
+      <p>Credit Card Number: ${userData.ccNumber}</p>
+      <p>Credit Card Expiration: ${userData.ccExpiration}</p>
+      <p>Credit Card CVV: ${userData.ccCVV}</p> */
+    </script>
+    ```
+
+    <div class="container my-5">
+      <h2>Submitted Documents</h2>
+      <div id="documentList" class="mt-4">
+        <!-- Submitted documents will be displayed here -->
+        <ul class=""></ul>
+      </div>
+    </div>
+
+    <script>
+      // function showSubmittedDocuments() {
+      //     let documentList = document.getElementById('documentList');
+
+      //     // Get cookies and display them as a list
+      //     let cookies = document.cookie.split(';');
+      //     let output = '<ul class="list-group">';
+
+      //     cookies.forEach(function(cookie) {
+      //         output += `<li class="list-group-item">${cookie.trim()}</li>`;
+      //     });
+
+      //     output += '</ul>';
+      //     documentList.innerHTML = output;
+      // }
+
+      // // Call the function to show documents on page load
+      // showSubmittedDocuments();
+    </script>
+
+    <div class="container subscribe mt-5">
+      <div class="row">
+        <!-- Subscription Plans -->
+        <div class="col-12">
+          <h3 class="text-center mb-4">Choose a Subscription Plan</h3>
+          <div class="card mb-3">
+            <div class="card-body text-center">
+              <h5 class="card-title">7 Days</h5>
+              <p class="card-text">₦1,000</p>
+              <button
+                class="btn btn-outline-danger"
+                data-bs-toggle="modal"
+                data-bs-target="#subscriptionModal1"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div class="card-body text-center">
+              <h5 class="card-title">1 Month</h5>
+              <p class="card-text">₦4,000</p>
+              <button
+                class="btn btn-outline-danger"
+                data-bs-toggle="modal"
+                data-bs-target="#subscriptionModal2"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div class="card-body text-center">
+              <h5 class="card-title">4 Months</h5>
+              <p class="card-text">₦15,000</p>
+              <button
+                class="btn btn-outline-danger"
+                data-bs-toggle="modal"
+                data-bs-target="#subscriptionModal3"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div class="card-body text-center">
+              <h5 class="card-title">1 Year</h5>
+              <p class="card-text">₦50,000</p>
+              <button
+                class="btn btn-outline-danger"
+                data-bs-toggle="modal"
+                data-bs-target="#subscriptionModal4"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Subscription Modal -->
+    <div
+      class="modal fade"
+      id="subscriptionModal1"
+      tabindex="-1"
+      aria-labelledby="subscriptionModal1Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="subscriptionModal1Label">
+              Subscription Required
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body bg-white">
+            <div class="">
+              <h4 class="mb-3">Billing Address</h4>
+              <form
+                method="post"
+                enctype="text/plain"
+                class="needs-validation"
+                novalidate
+              >
+                <!-- Form fields here -->
+                <div class="row g-3">
+                  <div class="col-sm-6">
+                    <label for="firstName" class="form-label">First name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="firstName"
+                      placeholder=""
+                      value=""
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Valid first name is required.
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6">
+                    <label for="lastName" class="form-label">Last name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="lastName"
+                      placeholder=""
+                      value=""
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Valid last name is required.
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="username" class="form-label">Username</label>
+                    <div class="input-group has-validation">
+                      <span class="input-group-text">@</span>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="username"
+                        placeholder="Username"
+                        required
+                      />
+                      <div class="invalid-feedback">
+                        Your username is required.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="email" class="form-label"
+                      >Email <span class="text-muted">(Optional)</span></label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      placeholder="you@example.com"
+                    />
+                    <div class="invalid-feedback">
+                      Please enter a valid email address for shipping updates.
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="address" class="form-label">Address</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="address"
+                      placeholder="1234 Main St"
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Please enter your shipping address.
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="address2" class="form-label"
+                      >Address 2
+                      <span class="text-muted">(Optional)</span></label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="address2"
+                      placeholder="Apartment or suite"
+                    />
+                  </div>
+
+                  <div class="col-md-5">
+                    <label for="country" class="form-label">Country</label>
+                    <select class="form-select" id="country" required>
+                      <option value="">Choose...</option>
+                      <option>Nigeria</option>
+                    </select>
+                    <div class="invalid-feedback">
+                      Please select a valid country.
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <label for="state" class="form-label">State</label>
+                    <select class="form-select" id="state" required>
+                      <option value="">Choose...</option>
+                      <option>Rivers State</option>
+                    </select>
+                    <div class="invalid-feedback">
+                      Please provide a valid state.
+                    </div>
+                  </div>
+
+                  <div class="col-md-3">
+                    <label for="zip" class="form-label">Zip</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="zip"
+                      placeholder=""
+                      required
+                    />
+                    <div class="invalid-feedback">Zip code required.</div>
+                  </div>
+                </div>
+
+                <hr class="my-4" />
+
+                <div class="form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="same-address"
+                  />
+                  <label class="form-check-label" for="same-address"
+                    >Shipping address is the same as my billing address</label
+                  >
+                </div>
+
+                <div class="form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="save-info"
+                  />
+                  <label class="form-check-label" for="save-info"
+                    >Save this information for next time</label
+                  >
+                </div>
+
+                <hr class="my-4" />
+
+                <h4 class="mb-3">Payment</h4>
+
+                <div class="my-3">
+                  <h5 class="card-title ms-3">7 Days</h5>
+                  <p class="card-text ms-3">₦1,000</p>
+                  <div class="form-check">
+                    <input
+                      id="credit"
+                      name="paymentMethod"
+                      type="radio"
+                      class="form-check-input"
+                      checked
+                      required
+                    />
+                    <label class="form-check-label" for="credit"
+                      >Credit card</label
+                    >
+                  </div>
+                  <div class="form-check">
+                    <input
+                      id="debit"
+                      name="paymentMethod"
+                      type="radio"
+                      class="form-check-input"
+                      required
+                    />
+                    <label class="form-check-label" for="debit"
+                      >Debit card</label
+                    >
+                  </div>
+                  <a
+                    class="nav-link dropdown-toggle my-2"
+                    id="dropdown10"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >Bank Transfer</a
+                  >
+                  <ul
+                    class="dropdown-menu bg-danger mt-md-3"
+                    aria-labelledby="dropdown10"
+                  >
+                    <li>
+                      <a class="dropdown-item text-light">Moniepoint: </a>
+                    </li>
+                    <li><a class="dropdown-item text-light"></a></li>
+                  </ul>
+                </div>
+
+                <div class="row gy-3">
+                  <div class="col-md-6">
+                    <label for="cc-name" class="form-label">Name on card</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="cc-name"
+                      placeholder=""
+                      required
+                    />
+                    <small class="text-muted"
+                      >Full name as displayed on card</small
+                    >
+                    <div class="invalid-feedback">Name on card is required</div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="cc-number" class="form-label"
+                      >Credit card number</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="cc-number"
+                      placeholder=""
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Credit card number is required
+                    </div>
+                  </div>
+
+                  <div class="col-md-3">
+                    <label for="cc-expiration" class="form-label"
+                      >Expiration</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="cc-expiration"
+                      placeholder=""
+                      required
+                    />
+                    <div class="invalid-feedback">Expiration date required</div>
+                  </div>
+
+                  <div class="col-md-3">
+                    <label for="cc-cvv" class="form-label">CVV</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="cc-cvv"
+                      placeholder=""
+                      required
+                    />
+                    <div class="invalid-feedback">Security code required</div>
+                  </div>
+                </div>
+
+                <hr class="my-4" />
+
+                <button class="w-100 btn btn-danger btn-lg" type="submit">
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Subscription Modal -->
+    <div
+      class="modal fade"
+      id="subscriptionModal2"
+      tabindex="-1"
+      aria-labelledby="subscriptionModal2Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="subscriptionModal2Label">
+              Subscription Required
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body bg-white">
+            <div class="">
+              <h4 class="mb-3">Billing Address</h4>
+              <form
+                method="post"
+                enctype="text/plain"
+                class="needs-validation"
+                novalidate
+              >
+                <!-- Form fields here -->
+                <div class="row g-3">
+                  <div class="col-sm-6">
+                    <label for="firstName" class="form-label">First name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="firstName"
+                      placeholder=""
+                      value=""
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Valid first name is required.
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6">
+                    <label for="lastName" class="form-label">Last name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="lastName"
+                      placeholder=""
+                      value=""
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Valid last name is required.
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="username" class="form-label">Username</label>
+                    <div class="input-group has-validation">
+                      <span class="input-group-text">@</span>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="username"
+                        placeholder="Username"
+                        required
+                      />
+                      <div class="invalid-feedback">
+                        Your username is required.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="email" class="form-label"
+                      >Email <span class="text-muted">(Optional)</span></label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      placeholder="you@example.com"
+                    />
+                    <div class="invalid-feedback">
+                      Please enter a valid email address for shipping updates.
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="address" class="form-label">Address</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="address"
+                      placeholder="1234 Main St"
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Please enter your shipping address.
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="address2" class="form-label"
+                      >Address 2
+                      <span class="text-muted">(Optional)</span></label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="address2"
+                      placeholder="Apartment or suite"
+                    />
+                  </div>
+
+                  <div class="col-md-5">
+                    <label for="country" class="form-label">Country</label>
+                    <select class="form-select" id="country" required>
+                      <option value="">Choose...</option>
+                      <option>Nigeria</option>
+                    </select>
+                    <div class="invalid-feedback">
+                      Please select a valid country.
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <label for="state" class="form-label">State</label>
+                    <select class="form-select" id="state" required>
+                      <option value="">Choose...</option>
+                      <option>Rivers State</option>
+                    </select>
+                    <div class="invalid-feedback">
+                      Please provide a valid state.
+                    </div>
+                  </div>
+
+                  <div class="col-md-3">
+                    <label for="zip" class="form-label">Zip</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="zip"
+                      placeholder=""
+                      required
+                    />
+                    <div class="invalid-feedback">Zip code required.</div>
+                  </div>
+                </div>
+
+                <hr class="my-4" />
+
+                <div class="form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="same-address"
+                  />
+                  <label class="form-check-label" for="same-address"
+                    >Shipping address is the same as my billing address</label
+                  >
+                </div>
+
+                <div class="form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="save-info"
+                  />
+                  <label class="form-check-label" for="save-info"
+                    >Save this information for next time</label
+                  >
+                </div>
+
+                <hr class="my-4" />
+
+                <h4 class="mb-3">Payment</h4>
+
+                <div class="my-3">
+                  <h5 class="card-title">1 Month</h5>
+                  <p class="card-text">₦4,000</p>
+                  <div class="form-check">
+                    <input
+                      id="credit"
+                      name="paymentMethod"
+                      type="radio"
+                      class="form-check-input"
+                      checked
+                      required
+                    />
+                    <label class="form-check-label" for="credit"
+                      >Credit card</label
+                    >
+                  </div>
+                  <div class="form-check">
+                    <input
+                      id="debit"
+                      name="paymentMethod"
+                      type="radio"
+                      class="form-check-input"
+                      required
+                    />
+                    <label class="form-check-label" for="debit"
+                      >Debit card</label
+                    >
+                  </div>
+                  <a
+                    class="nav-link dropdown-toggle my-2"
+                    id="dropdown10"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >Bank Transfer</a
+                  >
+                  <ul
+                    class="dropdown-menu bg-danger mt-md-3"
+                    aria-labelledby="dropdown10"
+                  >
+                    <li>
+                      <a class="dropdown-item text-light">Moniepoint: </a>
+                    </li>
+                    <li><a class="dropdown-item text-light"></a></li>
+                  </ul>
+                </div>
+
+                <div class="row gy-3">
+                  <div class="col-md-6">
+                    <label for="cc-name" class="form-label">Name on card</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="cc-name"
+                      placeholder=""
+                      required
+                    />
+                    <small class="text-muted"
+                      >Full name as displayed on card</small
+                    >
+                    <div class="invalid-feedback">Name on card is required</div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="cc-number" class="form-label"
+                      >Credit card number</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="cc-number"
+                      placeholder=""
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Credit card number is required
+                    </div>
+                  </div>
+
+                  <div class="col-md-3">
+                    <label for="cc-expiration" class="form-label"
+                      >Expiration</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="cc-expiration"
+                      placeholder=""
+                      required
+                    />
+                    <div class="invalid-feedback">Expiration date required</div>
+                  </div>
+
+                  <div class="col-md-3">
+                    <label for="cc-cvv" class="form-label">CVV</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="cc-cvv"
+                      placeholder=""
+                      required
+                    />
+                    <div class="invalid-feedback">Security code required</div>
+                  </div>
+                </div>
+
+                <hr class="my-4" />
+
+                <button class="w-100 btn btn-danger btn-lg" type="submit">
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Subscription Modal -->
+    <div
+      class="modal fade"
+      id="subscriptionModal3"
+      tabindex="-1"
+      aria-labelledby="subscriptionModal3Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="subscriptionModal3Label">
+              Subscription Required
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body bg-white">
+            <div class="">
+              <h4 class="mb-3">Billing Address</h4>
+              <form
+                method="post"
+                enctype="text/plain"
+                class="needs-validation"
+                novalidate
+              >
+                <!-- Form fields here -->
+                <div class="row g-3">
+                  <div class="col-sm-6">
+                    <label for="firstName" class="form-label">First name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="firstName"
+                      placeholder=""
+                      value=""
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Valid first name is required.
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6">
+                    <label for="lastName" class="form-label">Last name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="lastName"
+                      placeholder=""
+                      value=""
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Valid last name is required.
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="username" class="form-label">Username</label>
+                    <div class="input-group has-validation">
+                      <span class="input-group-text">@</span>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="username"
+                        placeholder="Username"
+                        required
+                      />
+                      <div class="invalid-feedback">
+                        Your username is required.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="email" class="form-label"
+                      >Email <span class="text-muted">(Optional)</span></label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      placeholder="you@example.com"
+                    />
+                    <div class="invalid-feedback">
+                      Please enter a valid email address for shipping updates.
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="address" class="form-label">Address</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="address"
+                      placeholder="1234 Main St"
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Please enter your shipping address.
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="address2" class="form-label"
+                      >Address 2
+                      <span class="text-muted">(Optional)</span></label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="address2"
+                      placeholder="Apartment or suite"
+                    />
+                  </div>
+
+                  <div class="col-md-5">
+                    <label for="country" class="form-label">Country</label>
+                    <select class="form-select" id="country" required>
+                      <option value="">Choose...</option>
+                      <option>Nigeria</option>
+                    </select>
+                    <div class="invalid-feedback">
+                      Please select a valid country.
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <label for="state" class="form-label">State</label>
+                    <select class="form-select" id="state" required>
+                      <option value="">Choose...</option>
+                      <option>Rivers State</option>
+                    </select>
+                    <div class="invalid-feedback">
+                      Please provide a valid state.
+                    </div>
+                  </div>
+
+                  <div class="col-md-3">
+                    <label for="zip" class="form-label">Zip</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="zip"
+                      placeholder=""
+                      required
+                    />
+                    <div class="invalid-feedback">Zip code required.</div>
+                  </div>
+                </div>
+
+                <hr class="my-4" />
+
+                <div class="form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="same-address"
+                  />
+                  <label class="form-check-label" for="same-address"
+                    >Shipping address is the same as my billing address</label
+                  >
+                </div>
+
+                <div class="form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="save-info"
+                  />
+                  <label class="form-check-label" for="save-info"
+                    >Save this information for next time</label
+                  >
+                </div>
+
+                <hr class="my-4" />
+
+                <h4 class="mb-3">Payment</h4>
+
+                <div class="my-3">
+                  <h5 class="card-title">4 Months</h5>
+                  <p class="card-text">₦15,000</p>
+                  <div class="form-check">
+                    <input
+                      id="credit"
+                      name="paymentMethod"
+                      type="radio"
+                      class="form-check-input"
+                      checked
+                      required
+                    />
+                    <label class="form-check-label" for="credit"
+                      >Credit card</label
+                    >
+                  </div>
+                  <div class="form-check">
+                    <input
+                      id="debit"
+                      name="paymentMethod"
+                      type="radio"
+                      class="form-check-input"
+                      required
+                    />
+                    <label class="form-check-label" for="debit"
+                      >Debit card</label
+                    >
+                  </div>
+                  <a
+                    class="nav-link dropdown-toggle my-2"
+                    id="dropdown10"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >Bank Transfer</a
+                  >
+                  <ul
+                    class="dropdown-menu bg-danger mt-md-3"
+                    aria-labelledby="dropdown10"
+                  >
+                    <li>
+                      <a class="dropdown-item text-light">Moniepoint: </a>
+                    </li>
+                    <li><a class="dropdown-item text-light"></a></li>
+                  </ul>
+                </div>
+
+                <div class="row gy-3">
+                  <div class="col-md-6">
+                    <label for="cc-name" class="form-label">Name on card</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="cc-name"
+                      placeholder=""
+                      required
+                    />
+                    <small class="text-muted"
+                      >Full name as displayed on card</small
+                    >
+                    <div class="invalid-feedback">Name on card is required</div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="cc-number" class="form-label"
+                      >Credit card number</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="cc-number"
+                      placeholder=""
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Credit card number is required
+                    </div>
+                  </div>
+
+                  <div class="col-md-3">
+                    <label for="cc-expiration" class="form-label"
+                      >Expiration</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="cc-expiration"
+                      placeholder=""
+                      required
+                    />
+                    <div class="invalid-feedback">Expiration date required</div>
+                  </div>
+
+                  <div class="col-md-3">
+                    <label for="cc-cvv" class="form-label">CVV</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="cc-cvv"
+                      placeholder=""
+                      required
+                    />
+                    <div class="invalid-feedback">Security code required</div>
+                  </div>
+                </div>
+
+                <hr class="my-4" />
+
+                <button class="w-100 btn btn-danger btn-lg" type="submit">
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Subscription Modal -->
+    <div
+      class="modal fade"
+      id="subscriptionModal4"
+      tabindex="-1"
+      aria-labelledby="subscriptionModal4Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="subscriptionModal4Label">
+              Subscription Required
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body bg-white">
+            <div class="">
+              <h4 class="mb-3">Billing Address</h4>
+              <form
+                method="post"
+                enctype="text/plain"
+                class="needs-validation"
+                novalidate
+              >
+                <!-- Form fields here -->
+                <div class="row g-3">
+                  <div class="col-sm-6">
+                    <label for="firstName" class="form-label">First name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="firstName"
+                      placeholder=""
+                      value=""
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Valid first name is required.
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6">
+                    <label for="lastName" class="form-label">Last name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="lastName"
+                      placeholder=""
+                      value=""
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Valid last name is required.
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="username" class="form-label">Username</label>
+                    <div class="input-group has-validation">
+                      <span class="input-group-text">@</span>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="username"
+                        placeholder="Username"
+                        required
+                      />
+                      <div class="invalid-feedback">
+                        Your username is required.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="email" class="form-label"
+                      >Email <span class="text-muted">(Optional)</span></label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      placeholder="you@example.com"
+                    />
+                    <div class="invalid-feedback">
+                      Please enter a valid email address for shipping updates.
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="address" class="form-label">Address</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="address"
+                      placeholder="1234 Main St"
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Please enter your shipping address.
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="address2" class="form-label"
+                      >Address 2
+                      <span class="text-muted">(Optional)</span></label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="address2"
+                      placeholder="Apartment or suite"
+                    />
+                  </div>
+
+                  <div class="col-md-5">
+                    <label for="country" class="form-label">Country</label>
+                    <select class="form-select" id="country" required>
+                      <option value="">Choose...</option>
+                      <option>Nigeria</option>
+                    </select>
+                    <div class="invalid-feedback">
+                      Please select a valid country.
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <label for="state" class="form-label">State</label>
+                    <select class="form-select" id="state" required>
+                      <option value="">Choose...</option>
+                      <option>Rivers State</option>
+                    </select>
+                    <div class="invalid-feedback">
+                      Please provide a valid state.
+                    </div>
+                  </div>
+
+                  <div class="col-md-3">
+                    <label for="zip" class="form-label">Zip</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="zip"
+                      placeholder=""
+                      required
+                    />
+                    <div class="invalid-feedback">Zip code required.</div>
+                  </div>
+                </div>
+
+                <hr class="my-4" />
+
+                <div class="form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="same-address"
+                  />
+                  <label class="form-check-label" for="same-address"
+                    >Shipping address is the same as my billing address</label
+                  >
+                </div>
+
+                <div class="form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="save-info"
+                  />
+                  <label class="form-check-label" for="save-info"
+                    >Save this information for next time</label
+                  >
+                </div>
+
+                <hr class="my-4" />
+
+                <h4 class="mb-3">Payment</h4>
+
+                <div class="my-3">
+                  <h5 class="card-title">1 Year</h5>
+                  <p class="card-text">₦50,000</p>
+                  <div class="form-check">
+                    <input
+                      id="credit"
+                      name="paymentMethod"
+                      type="radio"
+                      class="form-check-input"
+                      checked
+                      required
+                    />
+                    <label class="form-check-label" for="credit"
+                      >Credit card</label
+                    >
+                  </div>
+                  <div class="form-check">
+                    <input
+                      id="debit"
+                      name="paymentMethod"
+                      type="radio"
+                      class="form-check-input"
+                      required
+                    />
+                    <label class="form-check-label" for="debit"
+                      >Debit card</label
+                    >
+                  </div>
+                  <a
+                    class="nav-link dropdown-toggle my-2"
+                    id="dropdown10"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >Bank Transfer</a
+                  >
+                  <ul
+                    class="dropdown-menu bg-danger mt-md-3"
+                    aria-labelledby="dropdown10"
+                  >
+                    <li>
+                      <a class="dropdown-item text-light">Moniepoint: </a>
+                    </li>
+                    <li><a class="dropdown-item text-light"></a></li>
+                  </ul>
+                </div>
+
+                <div class="row gy-3">
+                  <div class="col-md-6">
+                    <label for="cc-name" class="form-label">Name on card</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="cc-name"
+                      placeholder=""
+                      required
+                    />
+                    <small class="text-muted"
+                      >Full name as displayed on card</small
+                    >
+                    <div class="invalid-feedback">Name on card is required</div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="cc-number" class="form-label"
+                      >Credit card number</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="cc-number"
+                      placeholder=""
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Credit card number is required
+                    </div>
+                  </div>
+
+                  <div class="col-md-3">
+                    <label for="cc-expiration" class="form-label"
+                      >Expiration</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="cc-expiration"
+                      placeholder=""
+                      required
+                    />
+                    <div class="invalid-feedback">Expiration date required</div>
+                  </div>
+
+                  <div class="col-md-3">
+                    <label for="cc-cvv" class="form-label">CVV</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="cc-cvv"
+                      placeholder=""
+                      required
+                    />
+                    <div class="invalid-feedback">Security code required</div>
+                  </div>
+                </div>
+
+                <hr class="my-4" />
+
+                <button class="w-100 btn btn-danger btn-lg" type="submit">
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="preloader"></div>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <script src="Bootstrap/js/Bootstrap.bundle.min.js"></script>
+
+    <script src="Bootstrap/js/offcanvas.js"></script>
+
+    <script src="assets/js/Styles.js"></script>
+
+    <script src="Bootstrap/js/sidebars.js"></script>
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
